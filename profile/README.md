@@ -1,12 +1,20 @@
 ## Hi there 👋
 
-<!--
+## [docker-compose](https://github.com/Horcrux14/docker-compose)
+<p> This repo has the `docker-compose.yml` file which can be run using the `docker compose up` command.
+This does the following
 
-**Here are some ideas to get you started:**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+1. Starts Postgres DB
+2. Runs SQL(Liquibase) migrations ([db](https://github.com/Horcrux14/db))
+3. Starts spring-boot todo app ([app](https://github.com/Horcrux14/app))
+4. Runs load tests on the todo spring-boot app ([jmeter](https://github.com/Horcrux14/jmeter))
+
+
+> After app is available at default port 8080
+
+> Any configuration can be cnaged in docker-compose.yml to configure it to run as wished to
+
+> The default configurations are designed in a way to work out of box</p>
+
+Cheers!
