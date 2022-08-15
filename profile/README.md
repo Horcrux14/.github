@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 ## [docker-compose](https://github.com/Horcrux14/docker-compose)
-<p> This repo has the `docker-compose.yml` file which can be run using the `docker compose up` command.
+This repo has the ```docker-compose.yml``` file which can be run using the ```docker compose up``` command.
 This does the following
 
 
@@ -15,6 +15,6 @@ This does the following
 
 > Any configuration can be cnaged in docker-compose.yml to configure it to run as wished to
 
-> The default configurations are designed in a way to work out of box</p>
+> The default configurations are designed in a way to work out of box
 
 Cheers!
